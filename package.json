@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Software Engineering Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bens222/portfolio.git"
+  },
+  "author": "Benjamin Sims <bensims89@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bens222/portfolio/issues"
+  },
+  "homepage": "https://github.com/bens222/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
