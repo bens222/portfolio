@@ -44,6 +44,8 @@ app.post('/thanks', (req, res) => {
     res.render('thanks', { contact: req.body })
 })
 
+const PORT = process.env.PORT || 3000;
+
 app.listen(8080, () => {
-    console.log('listening at http://localhost:8080')
+    console.log(`server is listening on port ${PORT}`)
 });
